@@ -13,5 +13,19 @@
 ;; 这一行代码，将函数 open-init-file 绑定到 <F2> 键上
 (global-set-key (kbd "<f2>") 'open-init-file)
 
+;; 快速使配置生效
+(defun apply-init-file()
+  (interactive)
+  (load-file "~/.emacs.d/init.el"))
+
+;; Bind apply-init-file to <f5>
+(global-set-key (kbd "<f5>") 'apply-init-file)
+
+;; use C-n C-p to select completion menu
+(with-eval-after-load 'company
+  (define-key company-active-map (kbd "M-n") nil)
+  (define-key company-active-map (kbd "M-p") nil)
+  (define-key company-active-map (kbd "C-n") #'company-select-next)
+  (define-key company-active-map (kbd "C-p") #'company-select-previous))
 
 (provide 'init-keybindings)

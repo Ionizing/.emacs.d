@@ -28,5 +28,10 @@
 ;; 启动时加载主题
 (load-theme 'monokai 1)
 
+;; popwin plugin
+;(require 'popwin)
+;(popwin-mode 1)
+;(setq ring-bell-function 'ignore)
+
 
 (provide 'init-ui)

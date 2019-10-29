@@ -2,8 +2,8 @@
      (require 'package)
      (package-initialize)
      (setq package-archives
-	   '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-	     ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
+	   '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+	     ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
 
 ;; 注意 elpa.emacs-china.org 是 Emacs China 中文社区在国内搭建的一个 ELPA 镜像
 
@@ -28,6 +28,12 @@
 		;; --- Themes ---
 		monokai-theme
 		;; solarized-theme
+
+		;; auctex
+		auctex-latexmk
+		evil
+		evil-nerd-commenter
+		;; hippie-exp ;; built-in
 		) "Default packages")
 
  (setq package-selected-packages my/packages)
