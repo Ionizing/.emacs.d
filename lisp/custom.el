@@ -54,9 +54,6 @@
 ;; use `C-x C-j' to enter current file dir
 (require 'dired-x)
 
-(global-evil-leader-mode)
-(evil-mode 1)
-
 (setq evil-want-C-u-scroll t)
 
 ;; Emacs key bindings

@@ -48,7 +48,7 @@
      (package-refresh-contents)
      (dolist (pkg my/packages)
        (when (not (package-installed-p pkg))
-p	 (package-install pkg))))
+	 (package-install pkg))))
 
  ;; Find Executable Path on OS X
 (when (memq window-system '(mac ns))

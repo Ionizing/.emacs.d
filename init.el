@@ -4,6 +4,11 @@
 
 (require 'org-install)
 (require 'ob-tangle)
+(require 'evil)
+
+;; custom
+(require 'custom)
+
 ;; (org-babel-load-file (expand-file-name "org-file-name.org" user-emacs-directory))
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
@@ -23,8 +28,10 @@
 ;; better-defaults
 (require 'init-better-defaults)
 
-;; custom
-(require 'custom)
+;; evil mode
+(global-evil-leader-mode)
+(evil-mode 1)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
