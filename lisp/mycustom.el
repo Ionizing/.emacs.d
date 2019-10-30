@@ -90,4 +90,4 @@
   )
 
 
-(provide 'custom)
+(provide 'mycustom)

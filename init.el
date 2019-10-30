@@ -4,10 +4,6 @@
 
 (require 'org-install)
 (require 'ob-tangle)
-(require 'evil)
-
-;; custom
-(require 'custom)
 
 ;; (org-babel-load-file (expand-file-name "org-file-name.org" user-emacs-directory))
 
@@ -28,7 +24,7 @@
 (require 'init-better-defaults)
 
 ;; evil mode
-
+(require 'mycustom)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
