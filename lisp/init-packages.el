@@ -29,6 +29,9 @@
 		monokai-theme
 		;; solarized-theme
 
+		;; org-mode
+		org
+
 		;; auctex
 		auctex-latexmk
 		evil
