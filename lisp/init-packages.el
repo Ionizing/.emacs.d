@@ -15,6 +15,16 @@
  (defvar my/packages '(
 		;; --- Auto-completion ---
 		company
+		company-ebdb
+		company-math
+		company-statistics
+
+		ebdb
+
+		auto-complete
+		auto-complete-pcmp
+
+		log4e
 		;; --- Better Editor ---
 		hungry-delete
 		swiper
@@ -29,13 +39,30 @@
 		monokai-theme
 		;; solarized-theme
 
+		math-symbol-lists
+
 		;; org-mode
 		org
+		org-ac
+
+		monitor
+		goto-chg
+		popup
+		smartparens
+		swiper
+		ivy
+		undo-tree
+		yaxception
 
 		;; auctex
 		auctex-latexmk
+		auctex
+
+		;; evil stuff
 		evil
 		evil-nerd-commenter
+		evil-leader
+		evil-org
 		;; hippie-exp ;; built-in
 		) "Default packages")
 
