@@ -12,7 +12,6 @@
 ;; (org-babel-load-file (expand-file-name "org-file-name.org" user-emacs-directory))
 
 (add-to-list 'load-path "~/.emacs.d/lisp/")
-
 ;; Keybindings
 (require 'init-keybindings)
 
@@ -29,8 +28,7 @@
 (require 'init-better-defaults)
 
 ;; evil mode
-(global-evil-leader-mode)
-(evil-mode 1)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

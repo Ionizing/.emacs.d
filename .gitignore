@@ -10,4 +10,6 @@
 # Undo-tree save-files
 *.~undo-tree
 
-recentf
+recentf*
+
+elpa/*

@@ -40,6 +40,11 @@
 ;; bind C-M-\ to indent-buffer
 (global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
 
+
+;; evil-mode
+(global-evil-leader-mode)
+(evil-mode 1)
+
 ;; dir-mode stuff
 (put 'dired-find-alternate-file 'disabled nil)
 
