@@ -59,7 +59,13 @@
 ;; use `C-x C-j' to enter current file dir
 (require 'dired-x)
 
-(setq evil-want-C-u-scroll t)
+;; (setq evil-want-C-u-scroll t)
+(define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-visual-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-insert-state-map (kbd "C-u")
+  (lambda ()
+    (interactive)
+    (evil-delete (point-at-bol) (point))))
 
 ;; Emacs key bindings
 (global-set-key (kbd "M-;") 'evilnc-comment-or-uncomment-lines)
