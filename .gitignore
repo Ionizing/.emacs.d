@@ -13,3 +13,6 @@
 recentf*
 
 elpa/*
+
+.cahce*
+.transient*

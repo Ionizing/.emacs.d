@@ -33,5 +33,7 @@
 ;(popwin-mode 1)
 ;(setq ring-bell-function 'ignore)
 
+(require 'ansi-color)
+
 
 (provide 'init-ui)

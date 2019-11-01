@@ -53,6 +53,7 @@
 		ivy
 		undo-tree
 		yaxception
+		ansi-color
 
 		;; auctex
 		auctex-latexmk
@@ -64,6 +65,13 @@
 		evil-leader
 		evil-org
 		;; hippie-exp ;; built-in
+
+		;; treemacs
+		treemacs
+		treemacs-magit
+		treemacs-icons-dired
+		treemacs-projectile
+		treemacs-evil
 		) "Default packages")
 
  (setq package-selected-packages my/packages)
