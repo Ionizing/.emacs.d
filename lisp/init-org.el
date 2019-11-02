@@ -22,6 +22,6 @@
 ;; (ac-set-trigger-key "TAB")
 
 ;; get easy-templates back in org-mode
-(require 'org-tempo)
+;; (require 'org-tempo)
 
 (provide 'init-org)
