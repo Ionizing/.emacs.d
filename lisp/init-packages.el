@@ -68,7 +68,7 @@
 
 		;; treemacs
 		treemacs
-		treemacs-magit
+		;; treemacs-magit
 		treemacs-icons-dired
 		treemacs-projectile
 		treemacs-evil
