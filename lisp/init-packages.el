@@ -72,6 +72,9 @@
 		treemacs-icons-dired
 		treemacs-projectile
 		treemacs-evil
+
+		;; telegra.el
+		telega
 		) "Default packages")
 
  (setq package-selected-packages my/packages)

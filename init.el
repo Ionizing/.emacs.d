@@ -26,6 +26,12 @@
 ;; evil mode
 (require 'mycustom)
 
+;; telegra
+(require 'init-telega)
+
+;; julia-mode
+(require 'julia-mode)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -33,7 +39,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil lsp-treemacs evil-nerd-commenter org-evil evil-org evil company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme auctex-latexmk)))
+    (telega treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil lsp-treemacs evil-nerd-commenter org-evil evil-org evil company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme auctex-latexmk)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
