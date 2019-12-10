@@ -73,6 +73,9 @@
 		treemacs-projectile
 		treemacs-evil
 
+		;; rust-mode
+		rust-mode
+
 		;; telegra.el
 		telega
 		) "Default packages")

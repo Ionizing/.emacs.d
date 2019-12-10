@@ -1,5 +1,6 @@
 ;; 设置启动屏幕显示最近打开文件
 (require 'recentf)
+(require 'backup-each-save)
 (recentf-mode 1)
 (setq recentf-max-menu-item 10)
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
@@ -8,6 +9,7 @@
 (setq make-backup-files nil)
 
 ;;
-(setq auto-save-default nil)
+;; (setq auto-save-default nil)
+(setq backup-directory-alist '(("." . "~/.emacs-saves")))
 
 (provide 'init-better-defaults)

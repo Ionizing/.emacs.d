@@ -32,6 +32,15 @@
 ;; julia-mode
 (require 'julia-mode)
 
+;; rust-mode
+(require 'rust-mode)
+(add-hook 'rust-mode-hook
+          (lambda () (setq indent-tabs-mode nil)))
+
+(setq TeX-auto-untabify 't)
+(setq org-latex-listings t)
+(require 'ox-latex)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -39,7 +48,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (telega treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil lsp-treemacs evil-nerd-commenter org-evil evil-org evil company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme auctex-latexmk)))
+    (backup-each-save ox-latex-subfigure cuda-mode rust-mode telega treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil lsp-treemacs evil-nerd-commenter org-evil evil-org evil company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme auctex-latexmk)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
