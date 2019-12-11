@@ -17,6 +17,8 @@
         (plantuml . t)
         (R . t)))
 
+(setq org-babel-python-command "python3")
+
 ;; enable auto-complete in org-mode
 ;; (add-to-list 'ac-modes 'org-mode)
 ;; (ac-set-trigger-key "TAB")
