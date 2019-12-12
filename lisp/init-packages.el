@@ -73,6 +73,8 @@
 		treemacs-projectile
 		treemacs-evil
 
+		backup-each-save
+
 		;; rust-mode
 		rust-mode
 
