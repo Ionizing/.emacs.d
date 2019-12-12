@@ -16,3 +16,6 @@ elpa/*
 
 .cahce*
 .transient*
+
+venv/
+elpy/

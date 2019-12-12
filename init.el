@@ -37,6 +37,8 @@
 (add-hook 'rust-mode-hook
           (lambda () (setq indent-tabs-mode nil)))
 
+(elpy-enable)
+
 (setq TeX-auto-untabify 't)
 (setq org-latex-listings t)
 (require 'ox-latex)
@@ -48,7 +50,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (backup-each-save ox-latex-subfigure cuda-mode rust-mode telega treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil lsp-treemacs evil-nerd-commenter org-evil evil-org evil company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme auctex-latexmk)))
+    (elpy pyenv-mode backup-each-save ox-latex-subfigure cuda-mode rust-mode telega treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil lsp-treemacs evil-nerd-commenter org-evil evil-org evil company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme auctex-latexmk)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

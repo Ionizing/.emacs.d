@@ -80,6 +80,10 @@
 
 		;; telegra.el
 		telega
+
+		;; python
+		elpy
+		pyenv-mode
 		) "Default packages")
 
  (setq package-selected-packages my/packages)
